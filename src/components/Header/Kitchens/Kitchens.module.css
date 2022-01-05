@@ -21,6 +21,12 @@
   color: aliceblue;
   text-align: center;
   cursor: pointer;
+  transition: background-colo 0.5s;
+}
+
+.item:hover,
+.item:active {
+  background-color: #cf711f;
 }
 
 .foodsContainer {

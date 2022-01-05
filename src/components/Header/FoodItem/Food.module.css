@@ -1,0 +1,78 @@
+.trySection {
+  padding: 10px 0 10px 30px;
+  height: 40vh;
+  color: #ffff;
+  margin-bottom: 5rem;
+  display: flex;
+  gap: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.tryText {
+  text-align: left;
+  font-size: 60px;
+  width: 800px;
+}
+.btn {
+  background-color: orangered;
+  padding: 40px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-colo 5.5s;
+}
+.btn:hover,
+.btn:active {
+  background-color: rgb(231, 171, 91);
+  color: #000;
+}
+
+.button {
+  background: tomato;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 30px grey;
+  border-radius: 12px solid;
+  background-color: rgb(231, 171, 91);
+  width: 300px;
+  margin: 50px auto;
+  padding-top: 20px;
+}
+
+.inputText {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.inpOwn {
+  border-radius: 5px;
+}
+
+.addbtn {
+  border: none;
+  padding: 10px 20px;
+  background-color: sienna;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.hiddenForm {
+  display: none;
+}

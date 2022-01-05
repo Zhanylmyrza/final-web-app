@@ -1,15 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Kitchens from "./components/Header/Kitchens/Kitchens";
+import Food from "./components/Header/FoodItem/Food";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Header />
       <Kitchens />
+      <Food />
     </div>
   );
-}
+};
 
 export default App;

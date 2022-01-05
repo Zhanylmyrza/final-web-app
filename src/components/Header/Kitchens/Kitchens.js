@@ -1,5 +1,4 @@
 import styles from "./Kitchens.module.css";
-import Food from "../FoodItem/Food";
 import { useState } from "react";
 
 const kitchens = [
@@ -33,7 +32,6 @@ const Kitchens = () => {
   const API_KEY = "0d63c18ec4da4a18bc50714dd2f99abc";
 
   const [foodsList, setFoodsList] = useState([]);
-  console.log("foodsList", foodsList);
 
   const generateFood = (id, title, image, ingredients) => {
     const food = {
@@ -42,21 +40,16 @@ const Kitchens = () => {
       image: image,
       ingredients: ingredients,
     };
-
-    console.log("My food :)", food);
     return food;
   };
 
   const chooseKitchen = (name) => {
-    console.log(name);
-
     fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${name}&fillIngredients=true` //request URL
+      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${name}&fillIngredients=true`
     )
       .then((res) => res.json())
       .then((data) => {
         const result = data.results;
-        console.log(result);
         const foods = [];
         result.map((food) =>
           foods.push(
@@ -90,7 +83,9 @@ const Kitchens = () => {
         {foodsList.map((food) => (
           <div className={styles.food}>
             <h2>{food.title}</h2>
+
             <img src={food.image} />
+
             <ol>
               {food.ingredients.map((item) => (
                 <li>

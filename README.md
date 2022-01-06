@@ -1,6 +1,6 @@
 Project made by Turdumamatova Aisanem and Bakirova Zhanylmyrza.
 This project we created in REACT used API and DATABASE.
-You can easily cook your favorite meals. Just by clicking you can take golden informations-recipes.
+You can easily cook your favorite meals. Just by clicking, you can take golden informations-recipes.
 Also you can creat own food. And ofcouse, you will not lose them.
 
 Video feedback: https://drive.google.com/file/d/1cvfj1yCjiFbQWZhgbKIVSoztmT72q9bj/view?usp=drivesdk

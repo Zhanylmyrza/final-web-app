@@ -1,5 +1,7 @@
 Project made by Turdumamatova Aisanem and Bakirova Zhanylmyrza.
 
+Video feedback:https://drive.google.com/file/d/1cvfj1yCjiFbQWZhgbKIVSoztmT72q9bj/view?usp=drivesdk
+
 ![image](https://user-images.githubusercontent.com/93324684/148260529-de44128e-7069-43e2-9f82-b0e28e9757d4.png)
 
 

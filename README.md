@@ -3,6 +3,10 @@ This project we created in REACT used API and DATABASE.
 You can easily cook your favorite meals. Just by clicking, you can take golden informations-recipes.
 Also you can creat own food. And ofcouse, you will not lose them.
 
+Presentation of our project: https://youtu.be/uDVNIgjqvR4
+
+TUTORIAL of our Project: https://youtu.be/KiSfQ6ka27c
+
 Video feedback: https://drive.google.com/file/d/1cvfj1yCjiFbQWZhgbKIVSoztmT72q9bj/view?usp=drivesdk
 
 ![image](https://user-images.githubusercontent.com/93324684/148260529-de44128e-7069-43e2-9f82-b0e28e9757d4.png)

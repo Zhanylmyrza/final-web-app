@@ -1,5 +1,4 @@
-Project made by Turdumamatova Aisanem and Bakirova Zhanylmyrza.
-This project we created in REACT used API and DATABASE.
+This project I created in REACT used API and DATABASE.
 You can easily cook your favorite meals. Just by clicking, you can take golden informations-recipes.
 Also you can creat own food. And ofcouse, you will not lose them.
 
